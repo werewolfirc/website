@@ -25,6 +25,14 @@
         <th>Function</th>
       </tr>
       <tr>
+        <td>!away</td>
+        <td>Marks you as away so that the bot doesn't ping you. Stores your cloak/hostmask, not nick. Can be done in the channel or in PM.</td>
+      </tr>
+      <tr>
+        <td>!back</td>
+        <td>Removes you from the away list.</td>
+      </tr>
+      <tr>
         <td>!simple</td>
         <td>Makes the bot give you simple role instructions, in case you are familiar with the roles.</td>
       </tr>
@@ -41,7 +49,7 @@
       </tr>
       <tr>
         <td>!ping</td>
-        <td>Pings the bot, it will reply you with a pong message.</td>
+        <td>Pings everyone to get their attention. This list excludes users who have set !away or /away. (<a href="http://wolf.xnrand.com/rules">please don't manually ping users</a>)
         </td>
       </tr>
       <tr>
@@ -58,7 +66,7 @@
       </tr>
       <tr>
         <td>!start</td>
-        <td>Vote to start the game</td>
+        <td>Starts the game</td>
       </tr>
     </table>
     <h3>During a game</h3>
@@ -137,7 +145,7 @@
         <td>/msg lykos guard <em>target</em></td>
         <td>Guardian angel</td>
         <td>Night</td>
-        <td>Guards a player from the wolves.</td>
+        <td>Guards a player from the wolves. If the wolves select the guared user to be killed, the guardian angles dies instead of the target.</td>
       </tr>
       <tr>
         <td>!shoot <em>target</em></td>
